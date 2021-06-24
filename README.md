@@ -12,6 +12,6 @@ PhoneCallNotifier().listen.forEach((event) {
 });
 ```
 
-The Exampe App:
+The Example App:
 
 ![screenshot](phonecallnotifier.webp)
