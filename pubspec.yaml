@@ -1,0 +1,23 @@
+name: phone_call_notifier
+description: Triggers a callback when the phone receives a phone call
+version: 1.0.0
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: ir.aligator.phone_call_notifier
+        pluginClass: PhoneCallNotifierPlugin
+      #ios:
+        #pluginClass: PhoneCallNotifierPlugin
